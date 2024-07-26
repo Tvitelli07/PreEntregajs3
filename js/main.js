@@ -52,3 +52,6 @@ function obtenerProductoPorIndice(indice) {
 document.addEventListener('DOMContentLoaded', () => {
     actualizarCarrito();
 });
+
+
+// se actualiza el carrito
