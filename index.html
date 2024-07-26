@@ -13,14 +13,18 @@
 <body>
 
     <div class="boton-carrito-compras">
-        <button type="button" class="btn btn-primary"
+        <button type="button" class="btn btn-primary" id="ver-carrito"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .95rem;">
   Carrito de compras
 </button>
     </div>
 
-    <div id="carrito-container" class="carrito-container"></div>
-    <div id="total-container" class="total-container"> </div>
+    <div id="carrito-container" style="display: none;">
+        <h2>Carrito de Compras</h2>
+        <div id="productos-carrito"></div>
+        <div id="total-container"></div>
+        <button id="vaciar-carrito" class="btn btn-danger btn-sm">Vaciar Carrito</button>
+    </div>
 
     <div class="product-row">
         <div class="card-gen" style="width: 18rem;">
